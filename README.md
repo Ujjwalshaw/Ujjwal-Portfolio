@@ -1,15 +1,12 @@
-
-  
-
-# Vishwas Saini's Resume
+# Ujjwal Shaw's Resume
 
 <div style="display:flex;flex-direction:row; justify-content; space-between;width:100%">
-  <h3>:rocket: <a  target="_blank" href="https://vishwas-saini-portfolio.vercel.app/"> Run Resume Live </a></h3>  
+  <h3>:rocket: <a  target="_blank" href=""> Run Resume Live </a></h3>  
 </div>
 
 Welcome to my *Presonal Portfolio*
 
-![Screenshot](https://github.com/Vishwas-10/Vishwas-s-Portfolio/blob/main/preview/p1.png)
+![Screenshot]()
 
  
 ---
@@ -41,8 +38,8 @@ $PROJECT_ROOT
 ```
 ----
 # Preview
-![Screenshot](https://github.com/Vishwas-10/Vishwas-s-Portfolio/blob/main/preview/p2.png)
-![Screenshot](https://github.com/Vishwas-10/Vishwas-s-Portfolio/blob/main/preview/p3.png)
-![Screenshot](https://github.com/Vishwas-10/Vishwas-s-Portfolio/blob/main/preview/p4.png)
+![Screenshot]()
+![Screenshot]()
+![Screenshot]()
 
 

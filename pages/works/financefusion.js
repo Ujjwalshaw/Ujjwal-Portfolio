@@ -13,20 +13,19 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Projects = () => (
-  <Layout title="Canteen Management System">
+  <Layout title="Finance Fusion">
     <Container>
       <Title>
-      Canteen Management System <Badge>2021-</Badge>
+      Finance Fusion<Badge>2023</Badge>
       </Title>
       <P>
-      A webapp using LAMP stack, on which the canteen vendor can put up items and students can create account,
-order food in a hassle free manner.
+      A MERN Stack webapp, for tracking small business and predicting sales.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Github</Meta>
-          <Link href="https://github.com/Vishwas-10/Canteen-Order-Management-System">
-          Canteen-Order-Management-System<ExternalLinkIcon mx="2px" />
+          <Link href="https://github.com/Vishwas-10/Finance-Fusion">
+          Finance-fusion<ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -35,7 +34,7 @@ order food in a hassle free manner.
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>HTML,CSS,JavaScript,PHP,MySQL</span>
+          <span>Typescript, React, Node, Express, MongoDB</span>
         </ListItem>
       </List>
 
@@ -43,9 +42,9 @@ order food in a hassle free manner.
         <Center>Preview</Center>
       </Heading>
 
-      <WorkImage src="/images/works/coms-home.png" alt="COMS" />
-      <WorkImage src="/images/works/coms1.png" alt="COMS" />
-      <WorkImage src="/images/works/coms2.png" alt="COMS" />
+      <WorkImage src="/images/works/financefusion-home.png" alt="COMS" />
+      <WorkImage src="/images/works/financefusion1.png" alt="COMS" />
+      <WorkImage src="/images/works/financefusion2.png" alt="COMS" />
     </Container>
   </Layout>
 )

@@ -13,7 +13,9 @@ import {
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
+import ExpParagraph from '../components/exppara'
 import { BioSection, BioYear } from '../components/bio'
+import { ExpSection, ExpCompany, ExpYear, ExpTitle } from '../components/experience'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
@@ -35,15 +37,15 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m a CSE junior at IIT MANDI!
+        Hello, I&apos;m a Data Science senior at IIT MANDI!
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Vishwas Saini
+            Ujjwal Shaw
           </Heading>
-          <p>3rd year B.Tech. CSE undergrad (Full Stack Developer)</p>
+          <p>4th year B.Tech. DSE undergrad (Full Stack Developer)</p>
         </Box>
         <Box
           flexShrink={0}
@@ -62,7 +64,7 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/profile.jpg"
+              src="/images/profile.png"
               alt="Profile image"
               borderRadius="full"
               width="100%"
@@ -77,16 +79,15 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-          Hello! 👋 I am Vishwas Saini a 3rd year Computer Science undergrad at Indian Institute of Technology, Mandi, HP. 
-          I enjoy taking complex problems and turning them into simple and beautiful webpages, I also love the logic and structure of coding
-          and always strive to write elegant and efficient code whether it be C++, Python, HTML, CSS or JavaScript.
+        I am a Data Science and Engineering student at IIT Mandi with a passion for problem-solving, web development, and machine learning. Proficient in languages like C++, Python, and web technologies such as HTML, CSS, JavaScript, React, Node.js, and MongoDB, I have a diverse skill set. During my internship, I worked with Transformers, LLMs, Physics-informed Neural Networks, and Generative AI, expanding my knowledge and expertise. 
+        Off the screen, you'll often find me on the football field, where I enjoy the thrill of teamwork and competition.
           <br></br>
           When I'm not coding, you'll find me watching movies, hanging out with my friends and exploring the beauty of 🏞 Himachal.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
+              My projects
             </Button>
           </NextLink>
         </Box>
@@ -98,11 +99,11 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>2002</BioYear>
-          Born in Rohtak, India.
+          Born in Lucknow, India.
         </BioSection>
         <BioSection>
           <BioYear>2020</BioYear>
-          Started B.tech. in Computer Science at IIT, Mandi, HP
+          Started B.tech. in Data Science at IIT, Mandi, HP
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
@@ -110,9 +111,28 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          Started Working as WebD head at MTB Club, IIT Mandi
+          Started Working as Core Member at PMC, IIT Mandi
         </BioSection>
         
+      </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          Experience
+        </Heading>
+        <ExpSection>
+        <ExpCompany>Siemens India</ExpCompany>
+        <ExpTitle>Data Science Intern</ExpTitle>
+        <ExpYear>January 2023 - July 2023</ExpYear>
+        </ExpSection>
+        <ExpParagraph>
+        • Developed an industrial chatbot on the RASA framework, providing real-time insights to plant operators and offering preventive and corrective actions for monitored plant anomalies.
+        <br></br>
+        • Identified and reported anomalies in plant operations, creating domain-specific knowledge layers through custom prompts and open-source LLMs, subsequently stored in ElasticSearch and InfluxDB.
+        <br></br>
+        • Enhanced the custom auto-encoder model by integrating physics-driven loss function, achieving 65% reduction in inconsistent predictions related to cement kiln operations.
+
+        </ExpParagraph>
       </Section>
 
       <Section delay={0.3}>
@@ -130,10 +150,17 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Achievements
         </Heading>
-        <li><section>Global rank 239 in Codechef November Lunchtime 2020</section></li>
-        <li><section>Ranked 3rd in Fake-A-Thon, IIT Mandi an Intra-IIT Hackathon</section></li>
-        <li><section>1st Runner Up, Intra College competitive programming contest hosted on Hackerearth</section></li>
-        <li><section>1st Runner Up, Intra College competitive programming contest hosted on URI online judge</section></li>
+        <ExpParagraph>
+        • Ranked 2nd in FrostHack-2022, a national level hackathon organised by IIT Mandi.
+        <br></br>
+        • Represented IIT Mandi in Inter IIT Tech Meet 11.0 in CloudPhysician - The Vital Extraction Challenge event.
+        <br></br>
+        • Ranked 2nd in AI in Healthcare - Pneumonia Classification hackathon organised by IIT Mandi.
+
+        </ExpParagraph>
+        {/* <li><section>Ranked 2nd in FrostHack-2022, a national level hackathon organised by IIT Mandi.</section></li>
+        <li><section>Represented IIT Mandi in Inter IIT Tech Meet 11.0 in CloudPhysician - The Vital Extraction Challenge event.</section></li>
+        <li><section>Ranked 2nd in AI in Healthcare - Pneumonia Classification hackathon organised by IIT Mandi.</section></li> */}
       </Section>
 
       <Section delay={0.3}>
@@ -142,44 +169,44 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/Vishwas-10" target="_blank">
+            <Link href="https://github.com/Ujjwalshaw" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @Vishwas-10
+                @Ujjwal Shaw
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.linkedin.com/in/vishwas-saini-384212218/" target="_blank">
+            <Link href="https://www.linkedin.com/in/ujjwal-shaw/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoLinkedin />}
               >
-                @Vishwas Saini
+                @Ujjwal Shaw
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.instagram.com/vishwas10/" target="_blank">
+            <Link href="https://www.instagram.com/ujjwalshaw_/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
               >
-                @Vishwas10
+                @ujjwalsahw_
               </Button>
             </Link>
           </ListItem>
         </List>
 
         <Box align="center" my={4}>
-          <NextLink href="https://drive.google.com/file/d/1f8wTm2_UAicf9EZ5vJ4tMVEmUMLiXR2k/view?usp=sharing" passHref scroll={false}>
+          <NextLink href="https://drive.google.com/file/d/1G7vCSEPhQvOQt7SSoHvK_Mye0y2I5605/view?usp=sharing" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-            <a href="https://drive.google.com/file/d/1f8wTm2_UAicf9EZ5vJ4tMVEmUMLiXR2k/view?usp=sharing">Download Resume</a> 
+            <a href="https://drive.google.com/file/d/1G7vCSEPhQvOQt7SSoHvK_Mye0y2I5605/view?usp=sharing">Download Resume</a> 
             </Button>
           </NextLink>
         </Box>

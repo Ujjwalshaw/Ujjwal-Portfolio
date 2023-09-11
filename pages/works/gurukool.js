@@ -15,25 +15,21 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="Adulting 101">
+  <Layout title="Sporti Enhancer">
     <Container>
       <Title>
-        Adulting 101 <Badge>2021</Badge>
+      Gurukool<Badge>2022</Badge>
       </Title>
-      <P>
-        Adulting 101 is a one stop solution for all finance problems. It is build using build using Python-based webframework Django, 
-        key features include add page, edit page, generate random page, ask form AI chat bot.
-      </P>
+      • It is an online classroom webapp with real time teacher-student interaction.
       <br></br>
-      Implemented a Markdown to HTML Converter that will automatically convert your markdown code to a HTML page whenever you add a new page.
-      <P>
-
-      </P>
+      • You can share your class-link and start your class at a go.
+      <br></br>
+      • Features: Caption generator using NLP, a dedicated whiteboard, file-sharing, video-call, real-time chat, screen-sharing etc.
       <List ml={4} my={4}>
-      <ListItem>
+        <ListItem>
           <Meta>Github</Meta>
-          <Link href="https://github.com/Vishwas-10/Adulting101">
-          Adulting 101 <ExternalLinkIcon mx="2px" />
+          <Link href="https://github.com/Ujjwalshaw/GuruKool">
+          Gurukool<ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -42,7 +38,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Python, Django, HTML, CSS, JavaScript, Dialogflow, Tensorflow</span>
+          <span>HTML, CSS, JavaScript, NodeJS, PeerJs, Docker</span>
         </ListItem>
       </List>
 
@@ -50,8 +46,9 @@ const Work = () => (
         <Center>Preview</Center>
       </Heading>
 
-      <WorkImage src="/images/works/adulting101-home.png" alt="adulting101" />
-      <WorkImage src="/images/works/adulting1.png" alt="adulting101" />
+      <WorkImage src="/images/works/gurukool1.png" alt="gurukool" />
+      <WorkImage src="/images/works/gurukool2.png" alt="gurukool" />
+      <WorkImage src="/images/works/gurukool3.png" alt="gurukool" />
     </Container>
   </Layout>
 )

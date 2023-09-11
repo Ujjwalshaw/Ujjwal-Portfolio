@@ -3,9 +3,9 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbComs from '../public/images/works/coms-home.png'
-import thumbadulting101 from '../public/images/works/adulting101-home.png'
-import thumbFakeFace from '../public/images/works/fakeface-home.png'
+import thumbfinancefusion from '../public/images/works/financefusion-home.png'
+import thumbgurukool from '../public/images/works/gurukool-home.png'
+import thumbspotienhancer from '../public/images/works/spotienhancer-home.png'
 import thumbHandGesture from '../public/images/works/handgesture-home.png'
 
 const Works = () => (
@@ -17,32 +17,32 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="COMS" title="Canteen Management System" thumbnail={thumbComs}>
-            A Lamp Stack webapp, using which the canteen vendor can manage food orders efficiently.
+          <WorkGridItem id="financefusion" title="Finance Fusion" thumbnail={thumbfinancefusion}>
+            A MERN Stack webapp, for tracking small business and predicting sales.
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem
-            id="Adulting101"
-            title="Adulting101"
-            thumbnail={thumbadulting101}
+            id="gurukool"
+            title="Gurukool"
+            thumbnail={thumbgurukool}
           >
-            A CRUD based Django webapp, with a Markdown to HTML Converter and an integrated AI chat bot.
+            A node app, for online classroom with extensive features.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="fakeface"
-            title="Fake Face Classifier"
-            thumbnail={thumbFakeFace}
+            id="spotienhancer"
+            title="Spoti Enhancer"
+            thumbnail={thumbspotienhancer}
           >
-            A Machine Learning model using CNN to classify fake images generted using Generative Adversarial Networks (GANs).
+            A flask webapp, for enhancing user experience on Spotify.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
           <WorkGridItem id="handgesture" thumbnail={thumbHandGesture} title="Hand Gesture Recognition">
-          A machine learning Model that will Recognize Hand Gestures in real time using CNN and automated using Raspberry pi.
+          A machine learning Model that will Recognize Hand Gestures in real time.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
