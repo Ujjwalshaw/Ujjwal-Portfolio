@@ -1,12 +1,12 @@
 # Ujjwal Shaw's Resume
 
 <div style="display:flex;flex-direction:row; justify-content; space-between;width:100%">
-  <h3>:rocket: <a  target="_blank" href=""> Run Resume Live </a></h3>  
+  <h3>:rocket: <a  target="_blank" href="https://ujjwal-portfolio-alpha.vercel.app/"> Run Resume Live </a></h3>  
 </div>
 
 Welcome to my *Presonal Portfolio*
 
-![Screenshot]()
+![Screenshot](https://github.com/Ujjwalshaw/Ujjwal-Portfolio/blob/main/preview/2.png)
 
  
 ---
@@ -38,8 +38,8 @@ $PROJECT_ROOT
 ```
 ----
 # Preview
-![Screenshot]()
-![Screenshot]()
-![Screenshot]()
+![Screenshot](https://github.com/Ujjwalshaw/Ujjwal-Portfolio/blob/main/preview/3.png)
+![Screenshot](https://github.com/Ujjwalshaw/Ujjwal-Portfolio/blob/main/preview/4.png)
+![Screenshot](https://github.com/Ujjwalshaw/Ujjwal-Portfolio/blob/main/preview/5.png)
 
 
